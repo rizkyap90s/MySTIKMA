@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mystikma">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResetActivity"></activity>
+        <activity android:name=".SignUp" />
+        <activity
+            android:name=".Setting"
+            android:parentActivityName=".Main" />
+        <activity
+            android:name=".detail.IsiKHS"
+            android:parentActivityName=".utama.KHS" />
+        <activity
+            android:name=".utama.Info"
+            android:parentActivityName=".Main" />
+        <activity
+            android:name=".utama.CekStatus"
+            android:parentActivityName=".Main" />
+        <activity
+            android:name=".utama.KHS"
+            android:parentActivityName=".Main" />
+        <activity
+            android:name=".detail.IsiKRS"
+            android:parentActivityName=".utama.KRS" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/NoBar" />
+        <activity
+            android:name=".utama.KRS"
+            android:parentActivityName=".Main" />
+        <activity android:name=".Main" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

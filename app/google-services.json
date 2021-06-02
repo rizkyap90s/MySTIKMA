@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1090100162081",
+    "firebase_url": "https://mystikma2.firebaseio.com",
+    "project_id": "mystikma2",
+    "storage_bucket": "mystikma2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090100162081:android:6f4606ee960ad1f8",
+        "android_client_info": {
+          "package_name": "com.example.mystikma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090100162081-t44v0e8rfodvr8vi9gr06oilmqf47dda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mystikma",
+            "certificate_hash": "b510217c6fa227a5c3d122fb2b4a117d2aa5c52f"
+          }
+        },
+        {
+          "client_id": "1090100162081-2be6lvs93c9sukp6fuc6fs7vgurlub46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKP3eKKRFSi80d5-k4G6g_dcM3dC4mYOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090100162081-2be6lvs93c9sukp6fuc6fs7vgurlub46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

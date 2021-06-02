@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6F6"
+    android:orientation="vertical"
+    tools:context=".Setting">
+
+    <LinearLayout
+        android:id="@+id/akun"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/cus_list"
+        android:foreground="?actionBarItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Account"
+            android:textSize="20dp"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/out"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/cus_list"
+        android:foreground="?actionBarItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Log Out"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/cus_list"
+        android:foreground="?actionBarItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Help"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>
